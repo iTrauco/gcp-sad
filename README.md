@@ -53,7 +53,9 @@ This project uses a Conda environment to manage dependencies for reproducible an
 #### Setup Instructions
 
 1. Clone the repository and switch to the feature branch:
-   ```bash
+   ```
+
+This notebook serves as a comprehensive system design proposal, providing the healthcare organization with a structured approach to implementing enterprise BigQuery integration and governance for their analytics infrastructure modernization and ML initiatives.bash
    git clone https://github.com/iTrauco/gcp-sad.git
    cd gcp-sad
    git checkout scenario02/enterprise-bigquery/integration-governance
@@ -68,3 +70,40 @@ This project uses a Conda environment to manage dependencies for reproducible an
    ```bash
    conda activate scenario02-enterprise-bigquery
    ```
+
+4. Install baseline packages:
+   ```bash
+   conda install -c conda-forge jupyter numpy pandas matplotlib seaborn -y
+   pip install google-cloud-bigquery google-cloud-storage google-cloud-logging google-cloud-monitoring google-cloud-dataplex google-cloud-functions
+   ```
+
+5. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+6. Access the notebook in your browser via the URL displayed in the terminal
+
+#### Environment Details
+
+The environment includes essential data science and BigQuery integration packages:
+- [Python 3.11](https://www.python.org/downloads/release/python-3110/)
+- [Jupyter Notebook](https://jupyter.org/documentation)
+- [pandas](https://pandas.pydata.org/docs/) & [numpy](https://numpy.org/doc/stable/) for data manipulation
+- [matplotlib](https://matplotlib.org/stable/index.html) & [seaborn](https://seaborn.pydata.org/) for visualization
+- [Google Cloud BigQuery](https://cloud.google.com/bigquery/docs) for data warehouse operations
+- [Google Cloud Storage](https://cloud.google.com/storage/docs) for data lake storage
+- [Google Cloud Logging](https://cloud.google.com/logging/docs) for audit trail management
+- [Google Cloud Monitoring](https://cloud.google.com/monitoring/docs) for pipeline observability
+- [Dataplex Universal Catalog](https://cloud.google.com/dataplex/docs) for metadata management
+- [Google Cloud Functions](https://cloud.google.com/functions/docs) for event-driven automation
+
+#### Environment Management
+
+For collaborators who enhance the environment with additional packages:
+
+```bash
+# Export the updated environment
+conda activate scenario02-enterprise-bigquery
+conda env export > environment.yml
+```
