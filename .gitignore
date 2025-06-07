@@ -230,3 +230,33 @@ __models__/
 # ===============================
 **/*artifact*/     # Matches any folder with "artifact" in the name
 **/*artifact*.*    # Matches any file with "artifact" in the name
+
+
+# ===============================
+# ☁️ Google Cloud Platform 
+# ===============================
+
+# Service Account Keys (never commit)
+*-service-account.json
+healthcare-*.json
+iam-*.json
+kms-*.json
+secretmanager-*.json
+
+# GCP Authentication & Config
+.gcp/
+gcp-config.json
+application_default_credentials.json
+
+# Environment-specific GCP configs
+*.gcp.env
+gcp-*.yaml
+
+# Terraform GCP Healthcare State
+healthcare-*.tfstate
+*-iam.tfstate
+*-kms.tfstate
+*-security.tfstate
+
+# Google Cloud SDK configs
+.config/gcloud/
