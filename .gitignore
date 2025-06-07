@@ -230,3 +230,27 @@ __models__/
 # ===============================
 **/*artifact*/     # Matches any folder with "artifact" in the name
 **/*artifact*.*    # Matches any file with "artifact" in the name
+
+# ===============================
+# 🏗️ BigQuery & Data Integration
+# ===============================
+
+# BigQuery query cache and temp files
+.bigquery_cache/
+*.bq
+*.sql.tmp
+bq-results-*.json
+
+# Data pipeline temp files
+pipeline-*.tmp
+etl-*.log
+data-sync-*.json
+
+# Dataplex temp configurations
+dataplex-*.yaml
+dataplex-config.json
+
+# Cloud Functions deployment artifacts
+.gcp_function_source.zip
+function-source.zip
+cloudfunctions_uploads/
