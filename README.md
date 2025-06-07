@@ -6,6 +6,18 @@
 
 This notebook serves as a comprehensive system design proposal, providing the healthcare organization with a structured approach to implementing enterprise BigQuery integration and governance for their analytics infrastructure modernization and ML initiatives.
 
+## Table of Contents
+- [Scenario Overview](#scenario-overview)
+- [Proposal Framework](#proposal-framework)
+- [System Components](#system-components)
+- [Implementation Considerations](#implementation-considerations)
+- [Reproducibility Framework](#reproducibility-framework)
+  - [Environment Setup](#environment-setup)
+  - [Prerequisites](#prerequisites)
+  - [Setup Instructions](#setup-instructions)
+  - [Environment Details](#environment-details)
+  - [Environment Management](#environment-management)
+
 ## Scenario Overview
 A healthcare organization wants to modernize their analytics infrastructure by integrating multiple enterprise data sources into BigQuery for advanced analytics and ML initiatives. They need guidance on integration architecture, data governance, pipeline automation, and compliance controls for their systematic GCP-based approach. This proposal outlines a systems approach for data integration architecture, governance implementation, and pipeline automation - including recommendations for scalability and enterprise reliability.
 
