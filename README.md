@@ -1,50 +1,41 @@
-# Google Cloud Platform Systems Analysis and Design (SAD)
+# Healthcare Data Platform Security Architecture System Design Proposal
 
-This repository contains case studies, each scoped to their own branch, that demonstrate systems analysis and design approaches leveraging Google Cloud Platform services across diverse industries and use cases. The repository is industry-agnostic, focusing on the strategic alignment of GCP services with specific business and technical requirements.
+## Scenario Overview
+A healthcare technology company wants to build a secure data analytics platform that enables their data science teams to access sensitive patient data for analysis. They need to implement proper access controls and security frameworks but struggle with designing IAM architecture, ensuring compliance with healthcare regulations, and creating automated monitoring for access patterns and compliance violations. They have GCP experience and use Terraform for infrastructure but are unsure how to architect the security layer with proper observability for their data platform. This proposal outlines a systems approach for security architecture design, compliance implementation, and monitoring infrastructure - including recommendations for scalability and regulatory adherence.
 
-Each case study applies a comprehensive problem-solving methodology that views system design as 'a search or problem-solving process that uses means to achieve desired ends' ([Strohmann et al., 2023](https://lutpub.lut.fi/bitstream/handle/10024/166324/strohmann_et_al_design_principles_publishers_version.pdf?sequence=3&isAllowed=y)). This holistic approach integrates multiple types of knowledge from understanding the problem domain to developing practical solutions, creating a framework that addresses the complex, interconnected challenges found in modern cloud architectures.
+## Proposal Framework
+This Jupyter notebook presents a systems analysis and design approach to the healthcare data platform security challenge. The proposal follows established information systems design principles, emphasizing:
+- **Security-First Design**: Methodical approach to implementing defense-in-depth security architecture with proper access controls
+- **Compliance Integration**: Structured approach to embedding HIPAA and healthcare regulatory requirements into system design
+- **Automated Governance**: Process-oriented approach to continuous monitoring, auditing, and compliance validation
+- **Observable Security**: Comprehensive monitoring and alerting framework for access patterns and security events
 
-The methodology's strength lies in its proven versatility across diverse technical domains, making it particularly effective for designing cloud-native solutions that leverage GCP's comprehensive service ecosystem.
+## System Components
+The proposed solution addresses the following key subsystems:
+1. **Identity and Access Management (IAM) Subsystem**
+   - Role-based access control architecture
+   - Authentication and authorization mechanisms
+   - Privilege management and least-privilege enforcement
+2. **Data Security Framework**
+   - Encryption at rest and in transit implementation
+   - Data classification and labeling systems
+   - Secure data storage and access protocols
+3. **Compliance and Governance Infrastructure**
+   - HIPAA compliance monitoring systems
+   - Audit trail generation and management
+   - Regulatory reporting and documentation frameworks
+4. **Monitoring and Observability Architecture**
+   - Security event detection and analysis
+   - Access pattern monitoring and anomaly detection
+   - Automated alerting and incident response systems
+5. **Infrastructure Security Framework**
+   - Network security and segmentation design
+   - Terraform-managed security policy implementation
+   - GCP security service integration and configuration
 
-## Purpose
-
-This repository demonstrates technical approaches to designing and implementing systems on Google Cloud Platform that balance performance, cost-efficiency, scalability, and operational excellence. It highlights architectural patterns and best practices for leveraging GCP services to solve real-world challenges across various industries and technical domains.
-
-## Structure
-
-The repository uses a branch-based organization where each case study is self-contained:
-
-- `main`: Contains the overview README and repository documentation
-- Case study branches: Each scenario is developed in its own dedicated branch with:
-  - Individual README with scenario-specific documentation
-  - `.gitignore` for environment-specific exclusions
-  - `notebooks/` directory containing the proposal Jupyter notebook
-  - `components/` directory with implementation modules, each in their own subdirectory
-  - `environment.yml` containing all conda environment specifications for the case study and its components
-
-## Case Studies Overview
-
-| Scenario | Topic | Notebook | Status |
-|:--------:|-------|:--------:|:------:|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
-| 6 |  |  |  |
-| 7 |  |  |  |
-| 8 |  |  |  |
-| 9 |  |  |  |
-| 10 |  |  |  |
-| 11 |  |  |  |
-| 12 |  |  |  |
-| 13 |  |  |  |
-| 14 |  |  |  |
-| 15 |  |  |  |
-| 16 |  |  |  |
-| 17 |  |  |  |
-| 18 |  |  |  |
-| 19 |  |  |  |
-| 20 |  |  |  |
-
-**Status Key:** ⚫ Not Started | 🟡 In Progress | 🟢 Complete | 🔒 On Hold | 🔴 Abandoned
+## Implementation Considerations
+The proposal includes high-level specifications for:
+- Recommended technology stack
+- System integration points
+- Resource requirements
+- Core security architecture components
