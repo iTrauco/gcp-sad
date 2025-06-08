@@ -16,4 +16,4 @@
 - [x] Update scenario overview to mention containerized workloads
 - [x] Add Kubernetes/Docker security to system components
 - [x] Include `kubernetes`, `docker`, `google-cloud-bigquery` in pip install
-- [ ] Review proposal framework alignment with container technologies
+- [x] Review proposal framework alignment with container technologies
