@@ -15,3 +15,21 @@ This Jupyter notebook presents a systems analysis and design approach to the med
 - **Event-Driven Processing**: Structured approach to automated pipeline triggers and serverless processing with Cloud Functions
 - **Metadata-Centric Design**: Process-oriented approach to comprehensive metadata capture and BigQuery analytics integration
 - **Automated Pipeline Reliability**: Comprehensive monitoring, error handling, and workflow optimization for production processing
+
+## System Components
+The proposed solution addresses the following key subsystems:
+1. **Container Orchestration Architecture**
+   - Kubernetes Engine cluster management and scaling
+   - Docker container deployment and lifecycle management
+2. **Event-Driven Processing Framework**
+   - Cloud Storage trigger mechanisms and Cloud Functions integration
+   - Automated workflow orchestration and job scheduling
+3. **Image Processing Pipeline Infrastructure**
+   - Medical image analysis and transformation workflows
+   - Containerized processing job management and queuing
+4. **Metadata and Analytics Architecture**
+   - BigQuery data warehouse for processing metadata and results
+   - Data lineage tracking and processing audit trails
+5. **Monitoring and Operations Framework**
+   - Pipeline performance monitoring and container health checks
+   - Resource optimization and error handling systems
