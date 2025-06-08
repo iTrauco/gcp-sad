@@ -1,4 +1,3 @@
-
 # Medical Imaging Processing Pipeline System Design Proposal
 
 > **Note**: This is a personal repository for developing a systematic approach to GCP cloud architecture and systems engineering using information systems analysis and design principles. The source of truth for work completed in this repository is located in the notebook within the `notebooks/` directory, not in this README.
@@ -82,3 +81,18 @@ This project uses a Conda environment to manage dependencies for reproducible an
    ```
 
 6. Access the notebook in your browser via the URL displayed in the terminal
+
+#### Environment Details
+
+The environment includes essential data science and medical imaging processing packages:
+- [Python 3.11](https://www.python.org/downloads/release/python-3110/)
+- [Jupyter Notebook](https://jupyter.org/documentation)
+- [pandas](https://pandas.pydata.org/docs/) & [numpy](https://numpy.org/doc/stable/) for data manipulation
+- [matplotlib](https://matplotlib.org/stable/index.html) & [seaborn](https://seaborn.pydata.org/) for visualization
+- [Google Cloud Storage](https://cloud.google.com/storage/docs) for medical image storage and retrieval
+- [Google Cloud BigQuery](https://cloud.google.com/bigquery/docs) for metadata analytics and processing results
+- [Google Cloud Functions](https://cloud.google.com/functions/docs) for event-driven processing triggers
+- [Kubernetes](https://kubernetes.io/docs/home/) for container orchestration and scaling
+- [Docker](https://docs.docker.com/) for containerized image processing workflows
+- [Google Cloud Logging](https://cloud.google.com/logging/docs) for pipeline monitoring and audit trails
+- [Google Cloud Monitoring](https://cloud.google.com/monitoring/docs) for system performance and health tracking
