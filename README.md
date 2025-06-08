@@ -6,6 +6,18 @@
 
 This notebook serves as a comprehensive system design proposal, providing the healthcare imaging company with a structured approach to implementing automated medical image processing pipeline architecture for their containerized workload orchestration and metadata analysis requirements.
 
+## Table of Contents
+- [Scenario Overview](#scenario-overview)
+- [Proposal Framework](#proposal-framework)
+- [System Components](#system-components)
+- [Implementation Considerations](#implementation-considerations)
+- [Reproducibility Framework](#reproducibility-framework)
+  - [Environment Setup](#environment-setup)
+  - [Prerequisites](#prerequisites)
+  - [Setup Instructions](#setup-instructions)
+  - [Environment Details](#environment-details)
+  - [Environment Management](#environment-management)
+
 ## Scenario Overview
 A healthcare imaging company wants to process and analyze medical images stored in Cloud Storage through automated pipelines using containerized workloads. They need guidance on Kubernetes orchestration, event-driven processing with Cloud Functions, and BigQuery metadata management for their systematic GCP-based approach. This proposal outlines a systems approach for container orchestration, automated processing pipelines, and metadata architecture - including recommendations for scalability and processing reliability.
 
@@ -53,7 +65,9 @@ This project uses a Conda environment to manage dependencies for reproducible an
 #### Setup Instructions
 
 1. Clone the repository and switch to the feature branch:
-   ```bash
+   ```
+
+```bash
    git clone https://github.com/iTrauco/google-cloud-sad.git
    cd google-cloud-sad
    git checkout scenario03/medical-imaging/processing-pipeline
@@ -96,3 +110,13 @@ The environment includes essential data science and medical imaging processing p
 - [Docker](https://docs.docker.com/) for containerized image processing workflows
 - [Google Cloud Logging](https://cloud.google.com/logging/docs) for pipeline monitoring and audit trails
 - [Google Cloud Monitoring](https://cloud.google.com/monitoring/docs) for system performance and health tracking
+
+#### Environment Management
+
+For collaborators who enhance the environment with additional packages:
+
+```bash
+# Export the updated environment
+conda activate scenario03-medical-imaging
+conda env export > environment.yml
+```
