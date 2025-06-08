@@ -26,9 +26,9 @@ The repository uses a branch-based organization where each case study is self-co
 
 | Scenario | Topic | Notebook | Status |
 |:--------:|-------|:--------:|:------:|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
+| 1 | [Healthcare Data Platform Security Architecture](https://github.com/iTrauco/google-cloud-sad/tree/scenario01/healthcare-security/data-platform-iam) | [Proposal Notebook](https://github.com/iTrauco/google-cloud-sad/blob/scenario01/healthcare-security/data-platform-iam/notebooks/%5BDRAFT%5D%20Healthcare%20Security%20Data%20Platform%20IAM%20-%20System%20Analysis%20and%20Design%20Proposal.ipynb) | 🟡 |
+| 2 | [Enterprise BigQuery Integration & Governance](https://github.com/iTrauco/google-cloud-sad/tree/scenario02/enterprise-bigquery/integration-governance) | [Proposal Notebook](https://github.com/iTrauco/google-cloud-sad/blob/scenario02/enterprise-bigquery/integration-governance/notebooks/%5BDRAFT%5DEnterprise%20BigQuery%20Integration%20Governance%20-%20System%20Analysis%20and%20Design%20Proposal.ipynb) | ⚫ |
+| 3 | [Medical Imaging Processing Pipeline](https://github.com/iTrauco/google-cloud-sad/tree/scenario03/medical-imaging/processing-pipeline) | TBD | ⚫ |
 | 4 |  |  |  |
 | 5 |  |  |  |
 | 6 |  |  |  |
