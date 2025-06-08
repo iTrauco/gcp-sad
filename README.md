@@ -86,7 +86,7 @@ This project uses a Conda environment to manage dependencies for reproducible an
 4. Install baseline packages:
    ```bash
    conda install -c conda-forge jupyter numpy pandas matplotlib seaborn -y
-   pip install google-cloud-iam google-cloud-storage google-cloud-logging google-cloud-monitoring google-cloud-secret-manager google-cloud-kms
+   pip install google-cloud-iam google-cloud-storage google-cloud-logging google-cloud-monitoring google-cloud-secret-manager google-cloud-kms google-cloud-bigquery kubernetes docker google-cloud-functions
    ```
 
 5. Launch Jupyter Notebook:
