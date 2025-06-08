@@ -13,7 +13,7 @@
 
 ## Action Items
 
-- [ ] Update scenario overview to mention containerized workloads
+- [x] Update scenario overview to mention containerized workloads
 - [ ] Add Kubernetes/Docker security to system components
 - [ ] Include `kubernetes`, `docker`, `google-cloud-bigquery` in pip install
 - [ ] Review proposal framework alignment with container technologies

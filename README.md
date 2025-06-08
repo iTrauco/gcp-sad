@@ -19,7 +19,7 @@ This notebook serves as a comprehensive system design proposal, providing the he
   - [Environment Management](#environment-management)
 
 ## Scenario Overview
-A healthcare technology company wants to build a secure data analytics platform that enables their data science teams to access sensitive patient data for analysis. They need to implement proper access controls and security frameworks but struggle with designing IAM architecture, ensuring compliance with healthcare regulations, and creating automated monitoring for access patterns and compliance violations. They have GCP experience and use Terraform for infrastructure but are unsure how to architect the security layer with proper observability for their data platform. This proposal outlines a systems approach for security architecture design, compliance implementation, and monitoring infrastructure - including recommendations for scalability and regulatory adherence.
+A healthcare technology company wants to build a secure data analytics platform using containerized workloads and Cloud Storage for sensitive patient data analysis. They need guidance on Kubernetes security architecture, Docker container protection, Cloud Functions access controls, and BigQuery compliance integration for their systematic GCP-based approach. This proposal outlines a systems approach for container security, serverless access controls, and data platform compliance - including recommendations for scalability and regulatory adherence.
 
 ## Proposal Framework
 This Jupyter notebook presents a systems analysis and design approach to the healthcare data platform security challenge. The proposal follows established information systems design principles, emphasizing:
