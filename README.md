@@ -8,3 +8,10 @@ This notebook serves as a comprehensive system design proposal, providing the he
 
 ## Scenario Overview
 A healthcare imaging company wants to process and analyze medical images stored in Cloud Storage through automated pipelines using containerized workloads. They need guidance on Kubernetes orchestration, event-driven processing with Cloud Functions, and BigQuery metadata management for their systematic GCP-based approach. This proposal outlines a systems approach for container orchestration, automated processing pipelines, and metadata architecture - including recommendations for scalability and processing reliability.
+
+## Proposal Framework
+This Jupyter notebook presents a systems analysis and design approach to the medical imaging processing pipeline challenge. The proposal follows established information systems design principles, emphasizing:
+- **Container-First Architecture**: Methodical approach to designing scalable containerized processing workflows with Kubernetes orchestration
+- **Event-Driven Processing**: Structured approach to automated pipeline triggers and serverless processing with Cloud Functions
+- **Metadata-Centric Design**: Process-oriented approach to comprehensive metadata capture and BigQuery analytics integration
+- **Automated Pipeline Reliability**: Comprehensive monitoring, error handling, and workflow optimization for production processing
