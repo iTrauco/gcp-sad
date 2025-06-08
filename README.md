@@ -1,3 +1,4 @@
+
 # Medical Imaging Processing Pipeline System Design Proposal
 
 > **Note**: This is a personal repository for developing a systematic approach to GCP cloud architecture and systems engineering using information systems analysis and design principles. The source of truth for work completed in this repository is located in the notebook within the `notebooks/` directory, not in this README.
@@ -33,3 +34,51 @@ The proposed solution addresses the following key subsystems:
 5. **Monitoring and Operations Framework**
    - Pipeline performance monitoring and container health checks
    - Resource optimization and error handling systems
+
+## Implementation Considerations
+The proposal includes high-level specifications for:
+- Recommended technology stack
+- System integration points
+- Resource requirements
+- Core processing pipeline components
+
+## Reproducibility Framework
+### Environment Setup
+
+This project uses a Conda environment to manage dependencies for reproducible analysis. Follow these steps to set up the environment:
+
+#### Prerequisites
+- Anaconda or Miniconda installed on your system
+- Git for cloning the repository
+
+#### Setup Instructions
+
+1. Clone the repository and switch to the feature branch:
+   ```bash
+   git clone https://github.com/iTrauco/google-cloud-sad.git
+   cd google-cloud-sad
+   git checkout scenario03/medical-imaging/processing-pipeline
+   ```
+
+2. Create the Conda environment:
+   ```bash
+   conda create -n scenario03-medical-imaging python=3.11 -y
+   ```
+
+3. Activate the environment:
+   ```bash
+   conda activate scenario03-medical-imaging
+   ```
+
+4. Install baseline packages:
+   ```bash
+   conda install -c conda-forge jupyter numpy pandas matplotlib seaborn -y
+   pip install google-cloud-storage google-cloud-bigquery google-cloud-functions kubernetes docker google-cloud-logging google-cloud-monitoring
+   ```
+
+5. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+6. Access the notebook in your browser via the URL displayed in the terminal
