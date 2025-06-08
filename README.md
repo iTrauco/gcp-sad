@@ -28,28 +28,25 @@ This Jupyter notebook presents a systems analysis and design approach to the hea
 - **Automated Governance**: Process-oriented approach to continuous monitoring, auditing, and compliance validation
 - **Observable Security**: Comprehensive monitoring and alerting framework for access patterns and security events
 
+# Scenario 01 - Updated System Components
+
 ## System Components
 The proposed solution addresses the following key subsystems:
-1. **Identity and Access Management (IAM) Subsystem**
+1. **Container Security Architecture**
+   - Kubernetes RBAC and cluster security controls
+   - Docker container security and image scanning
+2. **Data Security and Storage Framework**
+   - Cloud Storage encryption and access controls
+   - BigQuery data governance and compliance monitoring
+3. **Serverless Security Infrastructure**
+   - Cloud Functions access controls and authentication
+   - Event-driven security monitoring and response
+4. **Identity and Access Management (IAM) Subsystem**
    - Role-based access control architecture
-   - Authentication and authorization mechanisms
    - Privilege management and least-privilege enforcement
-2. **Data Security Framework**
-   - Encryption at rest and in transit implementation
-   - Data classification and labeling systems
-   - Secure data storage and access protocols
-3. **Compliance and Governance Infrastructure**
-   - HIPAA compliance monitoring systems
-   - Audit trail generation and management
-   - Regulatory reporting and documentation frameworks
-4. **Monitoring and Observability Architecture**
-   - Security event detection and analysis
-   - Access pattern monitoring and anomaly detection
-   - Automated alerting and incident response systems
-5. **Infrastructure Security Framework**
-   - Network security and segmentation design
-   - Terraform-managed security policy implementation
-   - GCP security service integration and configuration
+5. **Monitoring and Observability Framework**
+   - Container and serverless security monitoring
+   - Compliance dashboards and audit reporting
 
 ## Implementation Considerations
 The proposal includes high-level specifications for:
