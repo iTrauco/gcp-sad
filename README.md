@@ -96,7 +96,7 @@ This project uses a Conda environment to manage dependencies for reproducible an
 4. Install baseline packages:
    ```bash
    conda install -c conda-forge jupyter numpy pandas matplotlib seaborn -y
-   pip install google-cloud-iam google-cloud-storage google-cloud-logging google-cloud-monitoring google-cloud-secret-manager google-cloud-kms google-cloud-bigquery kubernetes docker google-cloud-functions
+   pip install google-cloud-iam google-cloud-storage google-cloud-logging google-cloud-monitoring google-cloud-bigquery kubernetes docker google-cloud-functions
    ```
 
 5. Launch Jupyter Notebook:
@@ -117,8 +117,10 @@ The environment includes essential data science and security packages:
 - [Google Cloud Storage](https://cloud.google.com/storage/docs) for secure data storage
 - [Google Cloud Logging](https://cloud.google.com/logging/docs) for audit trail management
 - [Google Cloud Monitoring](https://cloud.google.com/monitoring/docs) for security observability
-- [Google Cloud Secret Manager](https://cloud.google.com/secret-manager/docs) for secrets management
-- [Google Cloud KMS](https://cloud.google.com/kms/docs) for encryption key management
+- [Google Cloud BigQuery](https://cloud.google.com/bigquery/docs) for data analytics and compliance monitoring
+- [Kubernetes](https://kubernetes.io/docs/) for container orchestration
+- [Docker](https://docs.docker.com/) for containerization
+- [Google Cloud Functions](https://cloud.google.com/functions/docs) for serverless compute
 
 #### Environment Management
 
