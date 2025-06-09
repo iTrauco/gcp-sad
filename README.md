@@ -55,6 +55,16 @@ The proposal includes high-level specifications for:
 - Resource requirements
 - Core security architecture components
 
+### Optional Demonstration Components
+Should the proposal be accepted, the following barebones skeleton components could be developed as building blocks for an end-to-end pipeline demonstration:
+- **Container Security Scanner** (GKE + Cloud Functions)
+- **IAM Policy Validator** (Cloud IAM + Cloud Functions)
+- **Compliance Monitor** (Cloud Monitoring + BigQuery + Cloud Functions)
+- **Security Event Processor** (Cloud Logging + Cloud Functions)
+- **Audit Trail Aggregator** (Cloud Logging + BigQuery + Cloud Storage)
+
+*Note: These components are illustrative examples only and not required deliverables of this proposal.*
+
 ## Reproducibility Framework
 ### Environment Setup
 
