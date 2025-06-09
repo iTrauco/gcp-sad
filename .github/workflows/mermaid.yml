@@ -1,0 +1,20 @@
+name: Compile Mermaid
+on:
+ push:
+   paths: ['**.md', '**.ipynb']
+jobs:
+ mermaid:
+   runs-on: ubuntu-latest
+   steps:
+     - uses: actions/checkout@v3
+     - uses: neenjaw/compile-mermaid-markdown-action@master
+       with:
+         files: '.'
+         output: '.'
+     - name: Commit files
+       run: |
+         git config --local user.email "chris@trau.co"
+         git config --local user.name "itrauco"
+         git add .
+         git diff --staged --quiet || git commit -m "Auto-compile mermaid diagrams"
+         git push
