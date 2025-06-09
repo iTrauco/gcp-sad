@@ -622,7 +622,7 @@ Should the proposal be accepted, the following barebones skeleton components cou
 - **Primary Services**: [GKE](https://cloud.google.com/kubernetes-engine/docs), [Cloud Functions](https://cloud.google.com/functions/docs), [BigQuery](https://cloud.google.com/bigquery/docs)
 - **Supporting Services**: [Cloud IAM](https://cloud.google.com/iam/docs), [Cloud Monitoring](https://cloud.google.com/monitoring/docs), [Cloud Logging](https://cloud.google.com/logging/docs), [Cloud Storage](https://cloud.google.com/storage/docs)
 
-### 7.3 Component Architecture Visualization - Displays Mermaid on Local Server
+### 7.3 Component Architecture Visualization
 The following diagram illustrates how the optional demonstration components could work together in an end-to-end security pipeline. These components integrate various GCP services to provide comprehensive security monitoring, compliance tracking, and audit capabilities for the healthcare data platform.
 
 ```mermaid
@@ -654,53 +654,6 @@ flowchart TB
     style G fill:#e8f5e9
     style H fill:#e8f5e9
 ```
-
-*Note: This architecture represents potential building blocks that could be implemented post-proposal to demonstrate the integrated security and compliance capabilities of the platform.*
-
-
-test
-
-### 7.3 Component Architecture Visualization - TEST CELL
-The following diagram illustrates how the optional demonstration components could work together in an end-to-end security pipeline. These components integrate various GCP services to provide comprehensive security monitoring, compliance tracking, and audit capabilities for the healthcare data platform.
-
-```mermaid
-flowchart TB
-    subgraph sec ["Security Components"]
-        A[Container Security Scanner]
-        B[IAM Policy Validator]
-    end
-    
-    subgraph comp ["Compliance Components"]
-        C[Compliance Monitor]
-        D[Security Event Processor]
-        E[Audit Trail Aggregator]
-    end
-    
-    A --> F[Security Reports]
-    B --> F
-    C --> G[Compliance Dashboards]
-    D --> F
-    D --> G
-    E --> H[Audit Trails]
-    
-    style A fill:#e3f2fd
-    style B fill:#e3f2fd
-    style C fill:#fff3e0
-    style D fill:#fff3e0
-    style E fill:#fff3e0
-    style F fill:#e8f5e9
-    style G fill:#e8f5e9
-    style H fill:#e8f5e9
-```
-
-*Note: This architecture represents potential building blocks that could be implemented post-proposal to demonstrate the integrated security and compliance capabilities of the platform.*
-
-### 7.3 Component Architecture Visualization - IMAGE APPROACH TEST
-The following diagram illustrates how the optional demonstration components could work together in an end-to-end security pipeline. These components integrate various GCP services to provide comprehensive security monitoring, compliance tracking, and audit capabilities for the healthcare data platform.
-
-<div align="center">
-<img src="https://mermaid.ink/img/pako:eNqNk8tu2zAQRX-F4LUdwC_5sXABB2mTrkpvumiDCgUhECNRE9EkKQ6lJnD875VsJ25TFMjC0n3ce6_m4QJ0qxHWUDWNeUOtbsjJAlitLT1VDDV2q6pu26Yh1jhrjFG6asx707bHdNoa55oqx3Vt33Xgf7BjI3k0trH2vVZNJOu27YzJBxE8qOqW5U-7Q5n3LjynYy-b6W0LdeVt1Y3pFn9vXHSqOSZNu9PvxjnFQtvEkOKjyONUY7pNh5HX0dJVSXp8_0IZYEAYrJf6vWm90KyFxGo0DPUdbkMvR2s6LWvAXaOhNFgNKd1cSYFYe5o4dkMPKQ4xQ_I7d46Oy9sNYzJIhMcvL_DH4hGSbgXr4s-HBG5N6hV4f9ACTKrD9TCIiEZYs0QjBCDXHARZNhv3dFNtJ-8p6m7u_Bz_uP6Zzz2R-g6UvYlqJOO_3lDgrvEKXDgX_ANMBPwF" alt="Component Architecture Diagram" width="800"/>
-</div>
 
 *Note: This architecture represents potential building blocks that could be implemented post-proposal to demonstrate the integrated security and compliance capabilities of the platform.*
 
